@@ -5,6 +5,15 @@ public class User {
     private String userName;
     private String userEmail;
     private int userAge;
+    private Stirng userGender;
+
+    public Stirng getUserGender() {
+        return userGender;
+    }
+
+    public void setUserGender(Stirng userGender) {
+        this.userGender = userGender;
+    }
 
     public int getUserAge() {
         return userAge;
